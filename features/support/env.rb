@@ -5,7 +5,7 @@ require 'selenium-webdriver'
 require 'webdrivers'
 require 'capybara/rspec'
 
-APP_HOST = 'https://www.testdevlab.com'.freeze
+APP_HOST = 'https://automationteststore.com'.freeze
 HEADLESS = ENV['HEADLESS'] == 'true'
 
 Capybara.configure do |config|
